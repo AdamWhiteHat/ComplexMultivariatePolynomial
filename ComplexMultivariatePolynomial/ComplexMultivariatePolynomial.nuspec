@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ExtendedArithmetic.$id$</id>
+    <version>$version$</version>
+    <title>ExtendedArithmetic.$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>	
+	<language>en-US</language> 
+    <summary>A complex multivariate polynomial arithmetic class.</summary>
+    <description>A complex multivariate polynomial arithmetic class.</description>    
+	<tags>math;mathematics;polynomials;polynomial-arithmetic;arithmetic;numerics;csharp;</tags>
+	<copyright>Made by Adam White</copyright>
+	<repository type="git" url="https://github.com/AdamWhiteHat/ComplexMultivariatePolynomial.git" branch="master" />
+	<projectUrl>https://github.com/AdamWhiteHat/ComplexMultivariatePolynomial</projectUrl>	
+    <licenseUrl>https://github.com/AdamWhiteHat/ComplexMultivariatePolynomial/blob/master/LICENSE.txt</licenseUrl>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>	
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Numerics"  />
+    </frameworkAssemblies>
+  </metadata>
+</package>
