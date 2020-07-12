@@ -73,7 +73,7 @@ namespace PolynomialLibrary
 		{
 			var orderedTerms = Terms.OrderByDescending(t => t.Degree);
 			orderedTerms = orderedTerms.ThenBy(t => t.VariableCount());
-			orderedTerms = orderedTerms.ThenByDescending(t => t.CoEfficient);
+			orderedTerms = orderedTerms.ThenByDescending(t => Complex.Abs(t.CoEfficient));
 			Terms = orderedTerms.ToArray();
 		}
 

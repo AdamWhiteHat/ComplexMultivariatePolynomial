@@ -89,7 +89,7 @@ namespace TestComplexMultivariatePolynomial
 			string minuend = "3*X^2*Y^3 + 2*X^3*Y^2 + 6*X*Y^2 + 4*X^3 - 6*X^2*Y + 3*X*Y - 2*X^2 + 12*X - 6";
 			string subtrahend = "X^3*Y^2 + 3*X^2 - 3*Y^2 - 12*X - 2";
 
-			string expected = "3*X^2*Y^3 + X^3*Y^2 + 4*X^3 + 6*X*Y^2 - 6*X^2*Y + 3*Y^2 - 5*X^2 + 3*X*Y + 24*X - 4";
+			string expected = "3*X^2*Y^3 + X^3*Y^2 + 4*X^3 + 6*X*Y^2 - 6*X^2*Y - 5*X^2 + 3*Y^2 + 3*X*Y + 24*X - 4";
 
 			ComplexMultivariatePolynomial polyMinuend = ComplexMultivariatePolynomial.Parse(minuend);
 			ComplexMultivariatePolynomial polySubtrahend = ComplexMultivariatePolynomial.Parse(subtrahend);
@@ -107,7 +107,7 @@ namespace TestComplexMultivariatePolynomial
 			string minuend = "504*X*Y*Z^2 + 216*X*Y - 42*X*Z^2 - 18*X + 84*Y*Z^2 + 36*Y - 7*Z^2 - 3";
 			string subtrahend = "X*Y*Z^2 + 42*X*Z^2 - 8*X - X^2 - 3";
 
-			string expected = "503*X*Y*Z^2 + 84*Y*Z^2 - 84*X*Z^2 + X^2 - 7*Z^2 + 216*X*Y + 36*Y - 10*X";
+			string expected = "503*X*Y*Z^2 + 84*Y*Z^2 - 84*X*Z^2 - 7*Z^2 + X^2 + 216*X*Y + 36*Y - 10*X";
 
 			ComplexMultivariatePolynomial polyMinuend = ComplexMultivariatePolynomial.Parse(minuend);
 			ComplexMultivariatePolynomial polySubtrahend = ComplexMultivariatePolynomial.Parse(subtrahend);
